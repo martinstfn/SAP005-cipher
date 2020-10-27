@@ -1,0 +1,35 @@
+body{
+    background-color: gray;
+}
+
+header {
+    text-align: center;
+    font-size: 1em;
+}
+
+section {
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+    text-align: center;
+}
+
+div#codificar {
+    width: 500px;
+    height: 250px;
+    border: 2px solid black;
+    padding: 5px;
+    margin: 10px;
+    font-size: 1em;
+    color: pink;
+}
+
+div#decodificar {
+    width: 500px;
+    height: 250px;
+    border: 2px solid black;
+    padding: 5px;
+    margin: 10px;
+    font-size: 1em;
+    color: pink;
+}
