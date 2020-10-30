@@ -1,35 +1,133 @@
-body{
-    background-color: gray;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-header {
+html {
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background-color: #FFFAD1;
+    font-family: 'Allan';
+    font-size: 22px;
+}
+
+a {
+    text-decoration: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Allan', sans-serif;
+}
+
+#home{
+    width: 100%;
+    margin: 0 auto;
+}
+
+header{
+    width: 100%;
+    min-height: 120px;
     text-align: center;
-    font-size: 1em;
 }
 
-section {
+.cb1{
+    background-color: #FFABF7;
+    padding: 20px;
+    min-height: 95px;
+    margin-bottom: 30px;    
+}
+
+main{
+    justify-content: center;    
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 0 auto;
     display: flex;
+    flex-direction: column;
+}
+
+div.bmo{
+    width: 581px;
+    height: 550px;
+    background: #88DAD7;
+    border-radius: 20px;
+}
+
+form{
+    margin: 50px auto;
+    border-radius: 8px;
+    padding: 30px;   
+
+}
+
+form textarea{
+    min-width: 520px;
+    min-height: 320px;
+    border: 0;
+    background: url("assets/facebmo.jpg") no-repeat;
+    background-color: #DEFFEF;
+    background-position: 13vw;
+    background-size: 170px 100px;
+    padding: 15px;   /*espaçamento interno do texto*/  
+}
+
+.BgControl{
+    background: url("assets/controls.png") no-repeat;
+    width: 581px;
+    height: 206px;
+    background-position: 0vw;
+    margin-left: -30px;
+}
+.btns{
+    padding-top: 35px;
+    display: flex;
+    box-align: left;
     justify-content: center;
-    margin: 10px;
+}
+
+.btns2{
+    justify-content: center;   
+    max-width: 240px; /*largura da caixa*/
+    margin: 0 auto;
+    padding-top:25px;
+    display: flex;
+    flex-direction: column;
+}
+
+.BgControl select {
+    min-width: 180px;
+    min-height: 35px;
+    background-color: #c8e5ff;
+    border: 1px #36A0C9;
+    padding: 5px;
+    justify-content: center;
+}
+
+button.Encrypt{
+    width: 115px;
+    height: 35px;
+    background-color: #c8e5ff;
+    border: 1px #36A0C9;
+    justify-content: center;
+    margin-right: 5px;
+   
+}
+
+button.Decrypt{
+    width: 120px;
+    height: 35px;
+    background-color: #c8e5ff;
+    border: 1px #36A0C9;
+    justify-content: center;
+    
+}
+
+footer{
     text-align: center;
-}
-
-div#codificar {
-    width: 500px;
-    height: 250px;
-    border: 2px solid black;
-    padding: 5px;
-    margin: 10px;
-    font-size: 1em;
-    color: pink;
-}
-
-div#decodificar {
-    width: 500px;
-    height: 250px;
-    border: 2px solid black;
-    padding: 5px;
-    margin: 10px;
-    font-size: 1em;
-    color: pink;
+    margin-top: 430px;
+    font-style: oblique;
+    background: #FFABF7;
 }
