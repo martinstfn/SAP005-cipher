@@ -5,39 +5,75 @@
     <title>Caesar Cipher</title>
     <link rel="stylesheet" href="style.css" />
 
-    <link href='https://fonts.googleapis.com/css?family=Allan' rel='stylesheet'>
-    <style>
-    body {
-        font-family: 'Allan';font-size: 22px;
-    }
-    </style>
-    
+    <link href='https://fonts.googleapis.com/css?family=Allan' rel='stylesheet'>    
   </head>
-  <body>
-<header>
-    <div id="root">
-      <h1>Hello people!</h1>
+<body>
+  <div id="home">
+    <!-- Cabeçalho -->
+    <header>
+        <div class="cb1">
+          <h1>Hello adventurous friend!</h1>
+        </div>
+        <div class="cb2">
+          <p>C'mon grab your friends, we'll go to very distant lands!</p> 
+        </div>
+    </header>
+    
+    <!-- Conteúdo -->
+    <main>
+      <div class="encoder">
+        <div class="bmo">         
+          <!-- Caixa principal onde ocorrerá o diálogo --> 
+          <form action="" name="" id="">      
+            <textarea name="" id="" cols="43" rows="15"></textarea>
+            <div class="BgControl">
+              <div class="btns">
+                  <button class="Encrypt" type="submit" onclick="criptar(this)">Encrypt</button>
+                  <button class="Decrypt" type="submit" onclick="descriptar(this)">Decrypt</button>
+              </div>
 
-    </div>
-</header>
+              <!-- Dropdown -->
+              <div class="btns2">
+                <select name="selector" id="choice" >
+                  <option value="choice" > Choose </option>
+                  <option value="1">1</option>
+                  <option value="2">2</option>
+                  <option value="3">3</option>
+                  <option value="4">4</option>
+                  <option value="5">5</option>
+                  <option value="6">6</option>
+                  <option value="7">7</option>
+                  <option value="8">8</option>
+                  <option value="9">9</option>
+                  <option value="10">10</option>
+                  <option value="11">11</option>
+                  <option value="12">12</option>
+                  <option value="13">13</option>
+                  <option value="14">14</option>
+                  <option value="15">15</option>
+                  <option value="16">16</option>
+                  <option value="17">17</option>
+                  <option value="18">18</option>
+                  <option value="19">19</option>
+                  <option value="20">20</option>
+                  <option value="21">21</option>
+                  <option value="22">22</option>
+                  <option value="23">23</option>
+                  <option value="24">24</option>
+                  <option value="25">25</option>
+                </select>
+            </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </main>
 
-<section>
-    <div id="codificar">
-      <h3><strong>Insira seu texto para codificar</strong></h3>
-    </div>
-
-
-  <div id="decodificar">
-    <h3><strong>Insira seu texto para decodificar</strong></h3>
-
-
-  </div>
-  </section>
-
-  <footer>
-   <hr> Feito com muito carinho para os fãs
-  </footer>
-
-    <script src="index.js" type="module"></script>
-  </body>
+    <!-- Rodapé -->
+    <footer>
+           Made by: Stefany Martins
+    </footer>
+  </div>      
+  <script src="index.js" type="module"></script>
+</body>
 </html>
