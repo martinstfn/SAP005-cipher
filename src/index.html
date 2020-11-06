@@ -1,33 +1,37 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <title>Caesar Cipher</title>
-    <link rel="stylesheet" href="style.css" />
 
-    <link href='https://fonts.googleapis.com/css?family=Allan' rel='stylesheet'>   
-    <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'> 
+<head>
+  <meta charset="utf-8">
+  <title>Caesar Cipher</title>
+  <link rel="stylesheet" href="style.css" />
 
-  </head>
+  <link href='https://fonts.googleapis.com/css?family=Allan' rel='stylesheet'>
+  <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
+
+</head>
+
 <body>
   <div id="home">
     <!-- Cabeçalho -->
     <header>
-        <div class="cb1">
-          <h1>Hello Adventurous Friend!</h1>
-        </div>
-        <div class="cb2">
-          <p>C'mon grab your friends, we'll go to very distant lands!</p> 
-        </div>
+      <div class="cb1">
+        <h1>Hello Adventurous Friend!</h1>
+      </div>
+      <div class="cb2">
+        <p>C'mon grab your friends, we'll go to very distant lands!</p>
+        <br>
+      </div>
     </header>
-    
+
     <!-- Conteúdo -->
     <main>
       <div class="encoder">
-        <div class="bmo">         
-          <!-- Caixa principal onde ocorrerá o diálogo --> 
-          <form action="" name="" id="">      
-            <textarea name="" id="myText" placeholder="Bip Bop... Hey Humanooo! Digite algo para eu fazer converter"></textarea>
+        <div class="bmo">
+          <!-- Caixa principal onde ocorrerá o diálogo -->
+          <form action="" name="" id="">
+            <textarea name="" id="myText"
+              placeholder="Bip Bop... Hey Humanooo! Digite algo para ser criptografado"></textarea>
             <div class="BgControl">
               <div class="slct">
                 <select name="desloc" id="choose" class="deslocamento">
@@ -59,10 +63,10 @@
                 </select>
               </div>
               <div class="btns">
-                  <!-- <button class="Encrypt" type="submit" onclick="document.getElementById('rsp').className = 'opct';">Encrypt</button> -->
-                  <button class="Encrypt" type="submit" id="crip">Encrypt</button>
-                  <button class="Decrypt" type="submit" id="decrip">Decrypt</button>
-               </div>
+                <!-- <button class="Encrypt" type="submit" onclick="document.getElementById('rsp').className = 'opct';">Encrypt</button> -->
+                <button class="Encrypt" type="submit" id="crip">Encrypt</button>
+                <button class="Decrypt" type="submit" id="decrip">Decrypt</button>
+              </div>
             </div>
           </form>
         </div>
@@ -76,9 +80,10 @@
     <div class="respiro"></div>
     <!-- Rodapé -->
     <footer>
-           Feito com <span class="heart"></span> por Stefany Martins
+      Feito com <span class="heart"></span> por Stefany Martins
     </footer>
-  </div>      
+  </div>
   <script src="index.js" type="module"></script>
 </body>
+
 </html>
