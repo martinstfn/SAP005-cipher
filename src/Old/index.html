@@ -5,16 +5,14 @@
     <title>Caesar Cipher</title>
     <link rel="stylesheet" href="style.css" />
 
-    <link href='https://fonts.googleapis.com/css?family=Allan' rel='stylesheet'>   
-    <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'> 
-
+    <link href='https://fonts.googleapis.com/css?family=Allan' rel='stylesheet'>    
   </head>
 <body>
   <div id="home">
     <!-- Cabeçalho -->
     <header>
         <div class="cb1">
-          <h1>Hello Adventurous Friend!</h1>
+          <h1>Hello adventurous friend!</h1>
         </div>
         <div class="cb2">
           <p>C'mon grab your friends, we'll go to very distant lands!</p> 
@@ -24,13 +22,18 @@
     <!-- Conteúdo -->
     <main>
       <div class="encoder">
-        <div class="bmo">         
+        <div class="bmo">   
+
           <!-- Caixa principal onde ocorrerá o diálogo --> 
           <form action="" name="" id="">      
             <textarea name="" id="myText" placeholder="Bip Bop... Hey Humanooo! Digite algo para eu fazer converter"></textarea>
-            <div class="BgControl">
+              
+
+              <!-- Dropdown -->
+              <div class="BgControl"></div>
               <div class="slct">
                 <select name="desloc" id="choose" class="deslocamento">
+                  <option value="choice" > Choose </option>
                   <option value="1">1</option>
                   <option value="2">2</option>
                   <option value="3">3</option>
@@ -57,26 +60,27 @@
                   <option value="24">24</option>
                   <option value="25">25</option>
                 </select>
-              </div>
+            </div>
+            
               <div class="btns">
-                  <!-- <button class="Encrypt" type="submit" onclick="document.getElementById('rsp').className = 'opct';">Encrypt</button> -->
                   <button class="Encrypt" type="submit" id="crip">Encrypt</button>
                   <button class="Decrypt" type="submit" id="decrip">Decrypt</button>
-               </div>
+              </div>
             </div>
           </form>
         </div>
         <div class="resposta">
           <div class="balao">
-            <p class="resultado" id="result">Código Criptografado</p>
+            <p class="resultado" id="rstd">result</p>
           </div>
-        </div>
+          </div>
       </div>
     </main>
-    <div class="respiro"></div>
+    <div class="respiro"></div>   
+
     <!-- Rodapé -->
     <footer>
-           Feito com <span class="heart"></span> por Stefany Martins
+           Made by: Stefany Martins
     </footer>
   </div>      
   <script src="index.js" type="module"></script>
