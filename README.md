@@ -54,7 +54,7 @@
   
 :sparkles: Projeto final
 
-  :grey_exclamation:  A escolha desta interface teve como objetivo agradar o publico infantil com a interatividade e aos olhos dos adultos com um ambiente mais clean 
+  :grey_exclamation:  A escolha desta interface foi atualizada no Figma, teve como objetivo agradar o publico infantil com a interatividade e aos olhos dos adultos com um ambiente mais clean 
   
   ![Projeto final](https://github.com/martinstfn/SAP005-cipher/blob/master/src/assets/final.png)
   
@@ -68,6 +68,6 @@ Para esse projeto foram usados:
 
 
 ## Considerações finais
-:yellow_heart: Este projeto foi desenvolvido com muitas pesquisas do inicio ao fim, aprendizados ao longo do caminho, amor na escolha do tema, cores, e gratidão por ter conseguido desenvolver este projeto! :yellow_heart:
+:yellow_heart: Este projeto foi desenvolvido com muitas pesquisas do inicio ao fim, o site precisa de mais melhoras para uma melhor interação com o usuario como botões de copiar, colar e apagar, logo menos virá uma atualização. Grandes aprendizados ao longo do caminho com plataformas organizacionais, amor na escolha do tema, cores, e gratidão por ter conseguido desenvolver este projeto! :yellow_heart:
   
   
