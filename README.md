@@ -33,24 +33,26 @@
   
 ## 4. Processo
 
-  - Processo de definição do produto final:
+  - Processo de definição do produto:
   
-  :sparkles: Inicial
-  :grey_exclamation:  A principio um esboço no papel de ideias
+ :sparkles: Inicial
+
+   :grey_exclamation:  A principio um esboço no papel de ideias
   
   ![Projeto Inicial](https://github.com/martinstfn/SAP005-cipher/blob/master/src/assets/inicial.jpg)
   
-  :sparkles: Fluxograma
+:sparkles: Fluxograma  
   
   ![Fluxograma](https://github.com/martinstfn/SAP005-cipher/blob/master/src/assets/fluxograma.png)
 
-  :sparkles: Paleta de cores
- 
+:sparkles: Paleta de cores
+
   :grey_exclamation:  A paleta de cores foi escolhida afim de transpor um ambiente amigavel
   
   ![Paleta de cores](https://github.com/martinstfn/SAP005-cipher/blob/master/src/assets/paleta.png)
   
-  :sparkles: Projeto final
+:sparkles: Projeto final
+
   :grey_exclamation:  A escolha desta interface teve como objetivo agradar o publico infantil com a interatividade e aos olhos dos adultos com um ambiente mais clean 
   
   ![Projeto final](https://github.com/martinstfn/SAP005-cipher/blob/master/src/assets/final.png)
