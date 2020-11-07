@@ -1,4 +1,4 @@
-# Cifra de César
+# Cifra de César com o Bmo
 
 ## 1.Introdução
   A proposta de desenvolvimento deste projeto é a qual o usuário possa ter a experiencia em poder cifrar e decifrar uma mensagem especifica de su escolha, no qual cada letra é substituida por outra letra, por meio do deslocamento. 
@@ -36,9 +36,35 @@
   - Processo de definição do produto final:
   
   :sparkles: Inicial
+  :grey_exclamation:  A principio um esboço no papel de ideias
   
-  ![](src/assets/inicial.png)
+  ![Projeto Inicial](https://github.com/martinstfn/SAP005-cipher/blob/master/src/assets/inicial.jpg)
+  
+  :sparkles: Fluxograma
+  
+  ![Fluxograma](https://github.com/martinstfn/SAP005-cipher/blob/master/src/assets/fluxograma.png)
 
-  :sparkles: Interface Final
+  :sparkles: Paleta de cores
+ 
+  :grey_exclamation:  A paleta de cores foi escolhida afim de transpor um ambiente amigavel
   
-  ![]()
+  ![Paleta de cores](https://github.com/martinstfn/SAP005-cipher/blob/master/src/assets/paleta.png)
+  
+  :sparkles: Projeto final
+  :grey_exclamation:  A escolha desta interface teve como objetivo agradar o publico infantil com a interatividade e aos olhos dos adultos com um ambiente mais clean 
+  
+  ![Projeto final](https://github.com/martinstfn/SAP005-cipher/blob/master/src/assets/final.png)
+  
+  
+## 5. Desenvolvimento
+Para esse projeto foram usados:
+
+- HTML
+- CSS
+- Vanilla JavaScript
+
+
+## Considerações finais
+:yellow_heart: Este projeto foi desenvolvido com muitas pesquisas do inicio ao fim, aprendizados ao longo do caminho, amor na escolha do tema, cores, e gratidão por ter conseguido desenvolver este projeto! :yellow_heart:
+  
+  
